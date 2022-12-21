@@ -15,10 +15,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <style>
-      #stage{
-        background-image: url("static/banner1.jpg");
-        background-repeat: no-repeat;
-        background-size: auto;
+      #stage{        
+        background-color: transparent;
       }
       
       .name{
@@ -31,13 +29,25 @@
         color: white !important;
       }
       body{
+        background: url("static/banner.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover; 
+        
         background-color: #05274a;
+        
       }
     
     </style>
   </head>
   <body>
-    <div id=app></div>
+    <div class="container-fluid">
+      <img class="img-fluid mt-3 pt-3 mx-auto d-block" src="static/img/logo.png" width="30%">
+      <div id=app></div>
+    </div>
+    
+
     <script type=text/javascript src=static/js/manifest.dd73c67dd77166304d91.js>
     </script><script type=text/javascript src=static/js/vendor.9f6deb26e7a36f6bc598.js></script>
     <script type=text/javascript src=static/js/app.cf60c77bc80b04fae97e.js></script>
