@@ -1,0 +1,33 @@
+body{
+    background: url("/static/banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; 
+    
+    background-color: #05274a;
+    
+  }
+#stage{        
+    background-color: transparent;
+  }
+  
+  .name{
+    color: white !important;
+  }
+  #roll{
+    color: white !important;
+  }
+  label{
+    color: white !important;
+  }
+  .img{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em;
+  }
+#control{
+  margin-bottom: 5em !important;
+}    
